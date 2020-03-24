@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,10 +23,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
+
+/* .navbar{
+  font-size: larger;
+} */
+
 
 .App-link {
   color: #61dafb;
+}
+.zoom{
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
